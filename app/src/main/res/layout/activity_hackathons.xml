@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:padding="10dp"
+    android:scrollbarStyle="insideOverlay"
+    tools:context=".Hackathons">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Card1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+
+            app:cardUseCompatPadding="true"
+            app:contentPadding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/hack2"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:paddingLeft="15dp"
+                    android:text="HackSRM"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Date"
+                    android:paddingLeft="15dp"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Card2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/hack1" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+
+                    android:text="Hack3"
+                    android:paddingLeft="15dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="25-4-2019"
+                    android:paddingLeft="15dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Card3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/hack3" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+
+
+
+                    android:text="Womandroid" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="11-08-2019"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Card4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/hack4" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="	#000000"
+                    android:paddingLeft="15dp"
+
+
+                    android:text="Persona-TechFest" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="05-04-2019"
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>

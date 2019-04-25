@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MeetUp</string>
+    <string name="Title1">Description</string>
+    <string name="Description">
+
+        HackSRM is one of the Indias biggest Hackathon
+        organised by SRM University AP in association with Next Tech Lab.
+        It is open for all students from all over world. Participate and win up to ₹15,00,000
+        worth prizes
+
+        HackSRM is a premium student led national level hackathon held in India that aims to gather
+        the great student minds under one roof and solve potential real world problem through
+        technology under 36 hours. We belong to the technological hub of the country where marvels
+        of innovation and creativity have always been celebrated, HackSRM is one such celebration.
+        HackSRM is a platform for young geniuses to not only exercise their skills to the topmost
+        level but also to build a better tomorrow by ideating, constructing and innovating vast
+        solutions.
+    </string>
+    <string name="HackSRM">HackSRM</string>
+    <string name="Date">27-03-2019</string>
+</resources>
